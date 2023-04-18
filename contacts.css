@@ -1,0 +1,89 @@
+body {
+    background-color: #ffffff;
+    border-radius: 0%;
+    margin: 0%;
+    margin-bottom: -120px;
+}
+
+.botoes {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85px;
+    background-color: black;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.icones {
+    background-color: #000000;
+    color: aliceblue;
+    font-size: xx-large;
+    border-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    text-decoration-line: none;
+}
+
+.icones:hover {
+    background-color: #373737;
+    transform: scale(1.05);
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.texto{
+    margin-bottom: 5%;
+}
+
+.BOX1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo {
+    font-size: 40px;
+    text-align: center;
+}
+
+.BOX2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.png {
+    width: 48%;
+    height: 48%;
+  
+}
+
+.png_email {
+    width: 32.5%;
+    height: 32.5%;
+}
